@@ -1,0 +1,308 @@
+{
+	"courses":[
+		{
+			"id": 11,
+			"name": "Introduction to Artificial Intelligence for Beginners",
+			"labType_id": 0,
+			"courseconfigurationtemplate_id": 0,
+			"topicId": "878",
+			"lessonList": [
+				{
+					"title": "Understanding AI Basics",
+					"id": 1,
+					"description": "Introduction to fundamental concepts of AI",
+					"guid": "53cbd9b1b",
+					"allowQuiz": true,
+					"sequence": 1,
+					"imageoflesson": "",
+					"slideList": [
+						{
+							"id": 101,
+							"name": "<p><strong>What is AI?</strong></p>\n",
+							"guid": "95546aaaa",
+							"duration": 5,
+							"sequence": 1,
+							"text": "<p>Artificial Intelligence is technology that helps computers think like humans</p><p>It enables machines to learn from experience and adjust to new inputs</p><p>AI systems can understand visual information, speech, and make decisions</p>",
+							"templateID": 1,
+							"templateName": "Visual Left",
+							"slideAssets": [
+								{
+									"id": 1001,
+									"assettype": "Text",
+									"content": "<p>Introduction to AI concepts</p>",
+									"orientationkey": "$Text",
+									"version": "1"
+								}
+							]
+						},
+						{
+							"id": 102,
+							"name": "<p><strong>Types of AI</strong></p>\n",
+							"guid": "95546aaab",
+							"duration": 5,
+							"sequence": 2,
+							"text": "<p>Narrow AI is designed for specific tasks like playing chess or driving cars</p><p>General AI aims to match human intelligence across all tasks</p><p>Super AI would theoretically surpass human intelligence in all areas</p>",
+							"templateID": 1,
+							"templateName": "Visual Left",
+							"slideAssets": [
+								{
+									"id": 1002,
+									"assettype": "Text",
+									"content": "<p>Different categories of AI</p>",
+									"orientationkey": "$Text",
+									"version": "1"
+								}
+							]
+						},
+						{
+							"id": 103,
+							"name": "<p><strong>AI in Daily Life</strong></p>\n",
+							"guid": "95546aaac",
+							"duration": 5,
+							"sequence": 3,
+							"text": "<p>Voice assistants like Siri and Alexa use AI to understand and respond to commands</p><p>Navigation apps use AI to predict traffic and suggest fastest routes</p><p>Streaming services use AI to recommend movies and shows you might like</p>",
+							"templateID": 1,
+							"templateName": "Visual Left",
+							"slideAssets": [
+								{
+									"id": 1003,
+									"assettype": "Text",
+									"content": "<p>Common AI applications</p>",
+									"orientationkey": "$Text",
+									"version": "1"
+								}
+							]
+						}
+					]
+				},
+				{
+					"title": "AI in Business",
+					"id": 2,
+					"description": "How businesses leverage AI",
+					"guid": "53cbd9b2b",
+					"allowQuiz": true,
+					"sequence": 2,
+					"slideList": [
+						{
+							"id": 201,
+							"name": "<p><strong>Customer Service</strong></p>\n",
+							"text": "<p>AI chatbots provide 24/7 customer support and answer common questions</p><p>Smart systems analyze customer feedback to improve service quality</p><p>AI helps predict customer needs and personalize experiences</p>",
+							"sequence": 1,
+							"slideAssets": [
+								{
+									"id": 2001,
+									"assettype": "Text",
+									"content": "<p>AI in customer support</p>",
+									"orientationkey": "$Text",
+									"version": "1"
+								}
+							]
+						},
+						{
+							"id": 202,
+							"name": "<p><strong>Sales and Marketing</strong></p>\n",
+							"text": "<p>AI analyzes customer data to identify potential buyers</p><p>Smart algorithms personalize marketing messages for different audiences</p><p>AI predicts sales trends and helps optimize pricing strategies</p>",
+							"sequence": 2,
+							"slideAssets": [
+								{
+									"id": 2002,
+									"assettype": "Text",
+									"content": "<p>AI in sales optimization</p>",
+									"orientationkey": "$Text",
+									"version": "1"
+								}
+							]
+						},
+						{
+							"id": 203,
+							"name": "<p><strong>Operations</strong></p>\n",
+							"text": "<p>AI helps automate repetitive tasks and streamline workflows</p><p>Smart systems predict equipment maintenance needs to prevent breakdowns</p><p>AI optimizes inventory management and supply chain operations</p>",
+							"sequence": 3,
+							"slideAssets": [
+								{
+									"id": 2003,
+									"assettype": "Text",
+									"content": "<p>AI in business operations</p>",
+									"orientationkey": "$Text",
+									"version": "1"
+								}
+							]
+						}
+					]
+				},
+				{
+					"title": "AI in Healthcare",
+					"id": 3,
+					"description": "Applications of AI in healthcare",
+					"guid": "53cbd9b3b",
+					"allowQuiz": true,
+					"sequence": 3,
+					"slideList": [
+						{
+							"id": 301,
+							"name": "<p><strong>Medical Diagnosis</strong></p>\n",
+							"text": "<p>AI analyzes medical images to detect diseases early</p><p>Smart systems help doctors make more accurate diagnoses</p><p>AI can predict patient health risks based on medical history</p>",
+							"sequence": 1,
+							"slideAssets": [
+								{
+									"id": 3001,
+									"assettype": "Text",
+									"content": "<p>AI in medical diagnosis</p>",
+									"orientationkey": "$Text",
+									"version": "1"
+								}
+							]
+						},
+						{
+							"id": 302,
+							"name": "<p><strong>Treatment Planning</strong></p>\n",
+							"text": "<p>AI helps create personalized treatment plans for patients</p><p>Smart systems monitor patient response to treatments in real-time</p><p>AI assists in predicting treatment outcomes and success rates</p>",
+							"sequence": 2,
+							"slideAssets": [
+								{
+									"id": 3002,
+									"assettype": "Text",
+									"content": "<p>AI in treatment optimization</p>",
+									"orientationkey": "$Text",
+									"version": "1"
+								}
+							]
+						},
+						{
+							"id": 303,
+							"name": "<p><strong>Drug Discovery</strong></p>\n",
+							"text": "<p>AI accelerates the process of discovering new medicines</p><p>Smart algorithms predict drug interactions and side effects</p><p>AI helps identify existing drugs that might treat new conditions</p>",
+							"sequence": 3,
+							"slideAssets": [
+								{
+									"id": 3003,
+									"assettype": "Text",
+									"content": "<p>AI in pharmaceutical research</p>",
+									"orientationkey": "$Text",
+									"version": "1"
+								}
+							]
+						}
+					]
+				},
+				{
+					"title": "AI in Education",
+					"id": 4,
+					"description": "How AI transforms learning",
+					"guid": "53cbd9b4b",
+					"allowQuiz": true,
+					"sequence": 4,
+					"slideList": [
+						{
+							"id": 401,
+							"name": "<p><strong>Personalized Learning</strong></p>\n",
+							"text": "<p>AI creates customized learning paths based on student performance</p><p>Smart systems adapt content difficulty to match student abilities</p><p>AI provides immediate feedback to help students improve</p>",
+							"sequence": 1,
+							"slideAssets": [
+								{
+									"id": 4001,
+									"assettype": "Text",
+									"content": "<p>AI in personalized education</p>",
+									"orientationkey": "$Text",
+									"version": "1"
+								}
+							]
+						},
+						{
+							"id": 402,
+							"name": "<p><strong>Administrative Tasks</strong></p>\n",
+							"text": "<p>AI automates grading for multiple-choice and written assignments</p><p>Smart systems help teachers manage classroom schedules and resources</p><p>AI tracks student progress and generates detailed performance reports</p>",
+							"sequence": 2,
+							"slideAssets": [
+								{
+									"id": 4002,
+									"assettype": "Text",
+									"content": "<p>AI in education management</p>",
+									"orientationkey": "$Text",
+									"version": "1"
+								}
+							]
+						},
+						{
+							"id": 403,
+							"name": "<p><strong>Learning Support</strong></p>\n",
+							"text": "<p>AI-powered tutors provide 24/7 homework help to students</p><p>Smart systems identify learning gaps and suggest additional resources</p><p>AI helps create interactive and engaging learning materials</p>",
+							"sequence": 3,
+							"slideAssets": [
+								{
+									"id": 4003,
+									"assettype": "Text",
+									"content": "<p>AI in learning assistance</p>",
+									"orientationkey": "$Text",
+									"version": "1"
+								}
+							]
+						}
+					]
+				},
+				{
+					"title": "Future of AI",
+					"id": 5,
+					"description": "Upcoming trends and possibilities",
+					"guid": "53cbd9b5b",
+					"allowQuiz": true,
+					"sequence": 5,
+					"slideList": [
+						{
+							"id": 501,
+							"name": "<p><strong>Emerging Technologies</strong></p>\n",
+							"text": "<p>Self-driving vehicles will become more common on our roads</p><p>Smart cities will use AI to manage traffic, energy, and services</p><p>Advanced robots will assist in homes and workplaces</p>",
+							"sequence": 1,
+							"slideAssets": [
+								{
+									"id": 5001,
+									"assettype": "Text",
+									"content": "<p>Future AI applications</p>",
+									"orientationkey": "$Text",
+									"version": "1"
+								}
+							]
+						},
+						{
+							"id": 502,
+							"name": "<p><strong>Workplace Impact</strong></p>\n",
+							"text": "<p>AI will automate routine tasks across many industries</p><p>New jobs will emerge focused on AI development and management</p><p>Workers will need to develop new skills to work alongside AI</p>",
+							"sequence": 2,
+							"slideAssets": [
+								{
+									"id": 5002,
+									"assettype": "Text",
+									"content": "<p>AI's impact on jobs</p>",
+									"orientationkey": "$Text",
+									"version": "1"
+								}
+							]
+						},
+						{
+							"id": 503,
+							"name": "<p><strong>Ethical Considerations</strong></p>\n",
+							"text": "<p>Society will need to address AI privacy and security concerns</p><p>Guidelines will be needed for responsible AI development</p><p>Ensuring AI benefits everyone will be a key challenge</p>",
+							"sequence": 3,
+							"slideAssets": [
+								{
+									"id": 5003,
+									"assettype": "Text",
+									"content": "<p>AI ethics and challenges</p>",
+									"orientationkey": "$Text",
+									"version": "1"
+								}
+							]
+						}
+					]
+				}
+			],
+			"resources": [],
+			"authorId": 0,
+			"guid": "8d35a1eab",
+			"topicscovered": "Artificial Intelligence, Business Applications, Healthcare, Education, Future Trends"
+		}
+
+	]
+}
+	
+	

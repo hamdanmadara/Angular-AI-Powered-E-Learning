@@ -1,0 +1,43 @@
+<div class="chat-container" [class.open]="isOpen">
+    <div class="chat-button" (click)="toggleChat()" [class.open]="isOpen">
+      <span *ngIf="!isOpen">Ask a Question</span>
+      <span *ngIf="isOpen">Close Chat</span>
+    </div>
+    
+    <div class="chat-popup" *ngIf="isOpen">
+      <div class="chat-header">
+        <h3>Course Assistant</h3>
+      </div>
+      
+      <div class="chat-messages" #chatMessages>
+        <div class="message-wrapper" *ngFor="let message of chatHistory">
+          <div class="user-message">
+            <p>{{ message.question }}</p>
+            <small>{{ message.timestamp | date:'short' }}</small>
+          </div>
+          <div class="bot-message">
+            <p [innerHTML]="message.answer"></p>
+            <div *ngIf="message.isStreaming" class="streaming-indicator">
+              <span class="dot-flashing"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="chat-input">
+        <input 
+          type="text" 
+          [(ngModel)]="currentQuestion" 
+          (keyup.enter)="askQuestion()"
+          placeholder="Type your question here..."
+          [disabled]="chatHistory.length > 0 && chatHistory[chatHistory.length-1].isStreaming === true"
+        >
+        <button 
+          (click)="askQuestion()" 
+          [disabled]="!currentQuestion.trim() || (chatHistory.length > 0 && chatHistory[chatHistory.length-1].isStreaming === true)"
+        >
+          Send
+        </button>
+      </div>
+    </div>
+  </div>

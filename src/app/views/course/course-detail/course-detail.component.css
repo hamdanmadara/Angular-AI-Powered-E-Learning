@@ -1,0 +1,148 @@
+.course-player {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    min-height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  }
+  
+  .sidebar {
+    background: #F3F4F6;
+    border-right: 1px solid #E5E7EB;
+    padding: 1.5rem;
+    overflow-y: auto;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+  }
+  
+  .course-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #1F2937;
+  }
+  
+  .course-description {
+    color: #6B7280;
+    font-size: 0.875rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+  }
+  
+  .lessons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .lesson-section {
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .lesson-title {
+    padding: 0.75rem 1rem;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #374151;
+    background: #E5E7EB;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .lesson-title:hover {
+    background: #D1D5DB;
+  }
+  
+  .lesson-title.active {
+    background: #4F46E5;
+    color: white;
+  }
+  
+  .slides-list {
+    list-style: none;
+    padding: 0.5rem 0;
+    margin: 0;
+    background: #F9FAFB;
+  }
+  
+  .slide-item {
+    padding: 0.5rem 1rem 0.5rem 2rem;
+    font-size: 0.875rem;
+    color: #4B5563;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .slide-item:hover {
+    background: #E5E7EB;
+  }
+  
+  .slide-item.active {
+    background: #818CF8;
+    color: white;
+  }
+  
+  .main-content {
+    padding: 2rem;
+    overflow-y: auto;
+  }
+  
+  .slide-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .slide-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #E5E7EB;
+  }
+  
+  .slide-title {
+    font-size: 1.875rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1F2937;
+  }
+  
+  .progress-bar {
+    height: 4px;
+    background: #E5E7EB;
+    border-radius: 2px;
+    margin-top: 2rem;
+  }
+  
+  .progress {
+    height: 100%;
+    background: #4F46E5;
+    border-radius: 2px;
+    transition: width 0.3s ease;
+  }
+  
+  .slide-body {
+    color: #374151;
+    line-height: 1.6;
+  }
+  
+  /* Responsive styles */
+  /* @media (max-width: 768px) {
+    .course-player {
+      grid-template-columns: 1fr;
+    }
+  
+    .sidebar {
+      position: fixed;
+      left: -300px;
+      transition: left 0.3s ease;
+      z-index: 10;
+    }
+  
+    .sidebar.open {
+      left: 0;
+    }
+  } */

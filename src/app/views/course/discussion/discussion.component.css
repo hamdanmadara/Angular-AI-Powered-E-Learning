@@ -1,0 +1,168 @@
+.chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+
+  .chat-button {
+    background: #4F46E5;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .chat-button:hover {
+    background: #818CF8;
+  }
+
+  .chat-popup {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    width: 320px;
+    height: 480px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chat-header {
+    padding: 16px;
+    background: #F3F4F6;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .chat-header h3 {
+    margin: 0;
+    color: #1F2937;
+  }
+
+  .chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+  }
+
+  .message-wrapper {
+    margin-bottom: 16px;
+  }
+
+  .user-message {
+    background: #F3F4F6;
+    padding: 12px;
+    border-radius: 12px 12px 2px 12px;
+    margin-bottom: 8px;
+  }
+
+  .user-message p {
+    margin: 0;
+    color: #1F2937;
+  }
+
+  .user-message small {
+    color: #6B7280;
+    font-size: 0.75rem;
+  }
+
+  .bot-message {
+    background: #4F46E5;
+    color: white;
+    padding: 12px;
+    border-radius: 12px 12px 12px 2px;
+  }
+
+  .bot-message p {
+    margin: 0;
+  }
+
+  .chat-input {
+    padding: 16px;
+    border-top: 1px solid #E5E7EB;
+    display: flex;
+    gap: 8px;
+  }
+
+  .chat-input input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #E5E7EB;
+    border-radius: 6px;
+    outline: none;
+  }
+
+  .chat-input input:focus {
+    border-color: #4F46E5;
+  }
+
+  .chat-input button {
+    padding: 8px 16px;
+    background: #4F46E5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .chat-input button:disabled {
+    background: #E5E7EB;
+    cursor: not-allowed;
+  }
+
+
+  .streaming-indicator {
+    margin-top: 8px;
+  }
+  
+  .dot-flashing {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #9880ff;
+    color: #9880ff;
+    animation: dot-flashing 1s infinite linear alternate;
+    animation-delay: 0.5s;
+  }
+  
+  .dot-flashing::before, .dot-flashing::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+  }
+  
+  .dot-flashing::before {
+    left: -15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #9880ff;
+    color: #9880ff;
+    animation: dot-flashing 1s infinite alternate;
+    animation-delay: 0s;
+  }
+  
+  .dot-flashing::after {
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #9880ff;
+    color: #9880ff;
+    animation: dot-flashing 1s infinite alternate;
+    animation-delay: 1s;
+  }
+  
+  @keyframes dot-flashing {
+    0% {
+      background-color: #9880ff;
+    }
+    50%, 100% {
+      background-color: rgba(152, 128, 255, 0.2);
+    }
+  }

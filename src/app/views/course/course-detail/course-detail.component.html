@@ -1,0 +1,45 @@
+<div class="course-player">
+  <aside class="sidebar">
+    <h1 class="course-title">{{ course.name }}</h1>
+    <p class="course-description">{{ course.topicscovered }}</p>
+    
+    <div class="lessons-container">
+      @for (lesson of course.lessonList; track lesson.id; let lessonIndex = $index) {
+        <div class="lesson-section">
+          <h3 class="lesson-title" 
+              [class.active]="lessonIndex === currentLessonIndex"
+              (click)="selectLesson(lessonIndex)">
+            {{ lesson.title }}
+          </h3>
+          
+          @if (lessonIndex === currentLessonIndex) {
+            <ul class="slides-list">
+              @for (slide of lesson.slideList; track slide.id; let slideIndex = $index) {
+                <li class="slide-item"
+                    [class.active]="slideIndex === currentSlideIndex"
+                    (click)="selectSlide(lessonIndex, slideIndex)">
+                  {{ sanitizeHTML(slide.name) }}
+                </li>
+              }
+            </ul>
+          }
+        </div>
+      }
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <div class="slide-content">
+      <div class="slide-header">
+        <h2 class="slide-title">{{ sanitizeHTML(currentSlide.name) }}</h2>
+        <div class="progress-bar">
+          <div class="progress" [style.width.%]="progress"></div>
+        </div>
+      </div>
+
+      <div class="slide-body" [innerHTML]="currentSlide.text"></div>
+    </div>
+  </main>
+</div>
+
+<app-discussion [currentSlideContent]="currentSlide.text"></app-discussion>

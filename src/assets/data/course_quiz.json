@@ -1,0 +1,129 @@
+{
+    "quizzes": [
+      {
+        "courseId": 11,
+        "lessonQuizzes": [
+          {
+            "lessonId": 1,
+            "lessonTitle": "Understanding AI Basics",
+            "questions": [
+              {
+                "id": 1,
+                "questionText": "What is the primary purpose of AI technology?",
+                "slideReference": {
+                  "slideId": 101,
+                  "slideName": "What is AI?"
+                },
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "To help computers think like humans"
+                  },
+                  {
+                    "id": "b",
+                    "text": "To replace all human jobs"
+                  },
+                  {
+                    "id": "c",
+                    "text": "To only process numerical data"
+                  },
+                  {
+                    "id": "d",
+                    "text": "To store large amounts of data"
+                  }
+                ],
+                "correctAnswer": "a"
+              },
+              {
+                "id": 2,
+                "questionText": "Which of the following is an example of Narrow AI?",
+                "slideReference": {
+                  "slideId": 102,
+                  "slideName": "Types of AI"
+                },
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "A system that can do everything humans can"
+                  },
+                  {
+                    "id": "b",
+                    "text": "A chess-playing computer program"
+                  },
+                  {
+                    "id": "c",
+                    "text": "An AI that can create other AIs"
+                  },
+                  {
+                    "id": "d",
+                    "text": "A system that exceeds human intelligence"
+                  }
+                ],
+                "correctAnswer": "b"
+              }
+            ]
+          },
+          {
+            "lessonId": 2,
+            "lessonTitle": "AI in Business",
+            "questions": [
+              {
+                "id": 3,
+                "questionText": "What is a primary benefit of AI chatbots in customer service?",
+                "slideReference": {
+                  "slideId": 201,
+                  "slideName": "Customer Service"
+                },
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "They completely replace human customer service"
+                  },
+                  {
+                    "id": "b",
+                    "text": "They provide 24/7 customer support"
+                  },
+                  {
+                    "id": "c",
+                    "text": "They only handle complex queries"
+                  },
+                  {
+                    "id": "d",
+                    "text": "They only work during business hours"
+                  }
+                ],
+                "correctAnswer": "b"
+              },
+              {
+                "id": 4,
+                "questionText": "How does AI help in sales optimization?",
+                "slideReference": {
+                  "slideId": 202,
+                  "slideName": "Sales and Marketing"
+                },
+                "options": [
+                  {
+                    "id": "a",
+                    "text": "By replacing all sales representatives"
+                  },
+                  {
+                    "id": "b",
+                    "text": "By only focusing on existing customers"
+                  },
+                  {
+                    "id": "c",
+                    "text": "By analyzing customer data to identify potential buyers"
+                  },
+                  {
+                    "id": "d",
+                    "text": "By eliminating the need for marketing"
+                  }
+                ],
+                "correctAnswer": "c"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

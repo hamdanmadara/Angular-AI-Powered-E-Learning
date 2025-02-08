@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class CourseService {
-  private apiUrl = 'http://localhost:5000/api/generate';
+  private apiUrl = 'http://localhost:5000/api/query';
   private readonly MAX_RETRIES = 3;
 
   constructor() {}

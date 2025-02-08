@@ -1,7 +1,7 @@
 <div class="course-player">
   <aside class="sidebar">
     <h1 class="course-title">{{ course.name }}</h1>
-    <p class="course-description">{{ course.topicscovered }}</p>
+    <!-- <p class="course-description">{{ course.topicscovered }}</p> -->
     
     <div class="lessons-container">
       @for (lesson of course.lessonList; track lesson.id; let lessonIndex = $index) {

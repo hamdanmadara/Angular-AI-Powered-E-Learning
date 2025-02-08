@@ -1,0 +1,121 @@
+<div class="quiz-container">
+    <div class="quiz-header">
+        <!-- Add inside quiz-header, after quiz-info -->
+        <button class="back-button" (click)="goBackToCourse()">
+            <span class="back-icon">←</span>
+            <span>Back to Course</span>
+        </button>
+      <h1>Course Quiz</h1>
+      <div class="quiz-info">
+        <span class="quiz-progress" *ngIf="quizData">
+          Questions Answered: {{ Object.keys(userAnswers).length }} / {{ getTotalQuestions() }}
+        </span>
+      </div>
+    </div>
+  
+    <div class="quiz-content" *ngIf="quizData">
+      <div class="lesson-section" *ngFor="let lessonQuiz of quizData.lessonQuizzes">
+        <div class="lesson-header">
+          <h2>{{ lessonQuiz.lessonTitle }}</h2>
+        </div>
+        
+        <div class="questions-list">
+          <div class="question-card" *ngFor="let question of lessonQuiz.questions">
+            <div class="question-header">
+              <span class="question-number">Question {{ question.id }}</span>
+              <span class="slide-reference">From: {{ question.slideReference.slideName }}</span>
+            </div>
+  
+            <div class="question-content">
+              <p class="question-text">{{ question.questionText }}</p>
+              
+              <div class="options-grid">
+                <div class="option-card" 
+                     *ngFor="let option of question.options"
+                     [class.selected]="isAnswerSelected(question.id, option.id)"
+                     [class.disabled]="isQuizCompleted"
+                     (click)="!isQuizCompleted && selectAnswer(question.id, option.id)">
+                  <input type="radio" 
+                         [id]="'q' + question.id + '_' + option.id"
+                         [name]="'question_' + question.id"
+                         [value]="option.id"
+                         [checked]="isAnswerSelected(question.id, option.id)"
+                         [disabled]="isQuizCompleted"
+                         class="option-input">
+                  <label [for]="'q' + question.id + '_' + option.id" class="option-label">
+                    <span class="option-marker">{{ option.id.toUpperCase() }}</span>
+                    <span class="option-text">{{ option.text }}</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="quiz-actions">
+        <button *ngIf="!isQuizCompleted"
+                class="submit-button" 
+                [disabled]="!allQuestionsAnswered"
+                (click)="submitQuiz()">
+          <span class="button-text">Submit Quiz</span>
+          <span class="button-icon">→</span>
+        </button>
+        <button *ngIf="isQuizCompleted"
+                class="retake-button" 
+                (click)="retakeQuiz()">
+          <span class="button-text">Retake Quiz</span>
+          <span class="button-icon">↺</span>
+        </button>
+      </div>
+    </div>
+  
+    <div class="loading-container" *ngIf="!quizData">
+      <div class="loading-spinner"></div>
+      <p>Loading quiz...</p>
+    </div>
+  
+    <div class="results-overlay" *ngIf="showResults">
+      <div class="results-modal">
+        <div class="results-header">
+          <h2>Quiz Results</h2>
+          <div class="results-summary">
+            <span class="score">Score: {{ getScore() }}%</span>
+          </div>
+        </div>
+        
+        <div class="results-content">
+          <div class="success-message" *ngIf="incorrectQuestions.length === 0">
+            <div class="success-icon">🎉</div>
+            <h3>Perfect Score!</h3>
+            <p>Congratulations! You've answered all questions correctly.</p>
+          </div>
+          
+          <div class="error-message" *ngIf="incorrectQuestions.length > 0">
+            <h3>Review Needed</h3>
+            <div class="incorrect-questions">
+              <div class="incorrect-item" *ngFor="let item of incorrectQuestions">
+                <div class="incorrect-question">
+                  <strong>{{ item.question.questionText }}</strong>
+                </div>
+                <div class="incorrect-details">
+                  <div class="detail-item">
+                    <span class="detail-label">Lesson:</span>
+                    <span class="detail-value">{{ getLessonTitle(item.question.id) }}</span>
+                  </div>
+                  <div class="detail-item">
+                    <span class="detail-label">Slide:</span>
+                    <span class="detail-value">{{ item.question.slideReference.slideName }}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="results-actions">
+          <button class="close-button" (click)="showResults = false">Close Results</button>
+        </div>
+      </div>
+    </div>
+  </div>

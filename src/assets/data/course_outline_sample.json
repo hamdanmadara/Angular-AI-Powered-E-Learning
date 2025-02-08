@@ -1,308 +1,292 @@
 {
 	"courses":[
 		{
-			"id": 11,
-			"name": "Introduction to Artificial Intelligence for Beginners",
-			"labType_id": 0,
-			"courseconfigurationtemplate_id": 0,
-			"topicId": "878",
-			"lessonList": [
+	"id": 13,
+	"name": "Project Management Essentials",
+	"labType_id": 0,
+	"courseconfigurationtemplate_id": 0,
+	"topicId": "880",
+	"lessonList": [
+		{
+			"title": "Project Management Fundamentals",
+			"id": 1,
+			"description": "Core concepts of project management",
+			"guid": "53cbd9d1b",
+			"allowQuiz": true,
+			"sequence": 1,
+			"slideList": [
 				{
-					"title": "Understanding AI Basics",
-					"id": 1,
-					"description": "Introduction to fundamental concepts of AI",
-					"guid": "53cbd9b1b",
-					"allowQuiz": true,
+					"id": 101,
+					"name": "<p><strong>What is Project Management?</strong></p>\n",
+					"text": "<p>Project management is the application of knowledge, skills, and techniques to execute projects effectively</p><p>Projects are temporary endeavors with defined beginnings and ends</p><p>Every project delivers a unique product, service, or result</p><p>Project managers balance competing constraints: scope, time, cost, and quality</p><p>Successful projects require careful planning, execution, and monitoring</p><p>Projects involve multiple stakeholders with different expectations</p><p>Risk management is crucial throughout the project lifecycle</p><p>Project success depends on clear communication and stakeholder alignment</p>",
 					"sequence": 1,
-					"imageoflesson": "",
-					"slideList": [
+					"slideAssets": [
 						{
-							"id": 101,
-							"name": "<p><strong>What is AI?</strong></p>\n",
-							"guid": "95546aaaa",
-							"duration": 5,
-							"sequence": 1,
-							"text": "<p>Artificial Intelligence is technology that helps computers think like humans</p><p>It enables machines to learn from experience and adjust to new inputs</p><p>AI systems can understand visual information, speech, and make decisions</p>",
-							"templateID": 1,
-							"templateName": "Visual Left",
-							"slideAssets": [
-								{
-									"id": 1001,
-									"assettype": "Text",
-									"content": "<p>Introduction to AI concepts</p>",
-									"orientationkey": "$Text",
-									"version": "1"
-								}
-							]
-						},
-						{
-							"id": 102,
-							"name": "<p><strong>Types of AI</strong></p>\n",
-							"guid": "95546aaab",
-							"duration": 5,
-							"sequence": 2,
-							"text": "<p>Narrow AI is designed for specific tasks like playing chess or driving cars</p><p>General AI aims to match human intelligence across all tasks</p><p>Super AI would theoretically surpass human intelligence in all areas</p>",
-							"templateID": 1,
-							"templateName": "Visual Left",
-							"slideAssets": [
-								{
-									"id": 1002,
-									"assettype": "Text",
-									"content": "<p>Different categories of AI</p>",
-									"orientationkey": "$Text",
-									"version": "1"
-								}
-							]
-						},
-						{
-							"id": 103,
-							"name": "<p><strong>AI in Daily Life</strong></p>\n",
-							"guid": "95546aaac",
-							"duration": 5,
-							"sequence": 3,
-							"text": "<p>Voice assistants like Siri and Alexa use AI to understand and respond to commands</p><p>Navigation apps use AI to predict traffic and suggest fastest routes</p><p>Streaming services use AI to recommend movies and shows you might like</p>",
-							"templateID": 1,
-							"templateName": "Visual Left",
-							"slideAssets": [
-								{
-									"id": 1003,
-									"assettype": "Text",
-									"content": "<p>Common AI applications</p>",
-									"orientationkey": "$Text",
-									"version": "1"
-								}
-							]
+							"id": 1001,
+							"assettype": "Text",
+							"content": "<p>Introduction to Project Management</p>",
+							"orientationkey": "$Text",
+							"version": "1"
 						}
 					]
 				},
 				{
-					"title": "AI in Business",
-					"id": 2,
-					"description": "How businesses leverage AI",
-					"guid": "53cbd9b2b",
-					"allowQuiz": true,
+					"id": 102,
+					"name": "<p><strong>Project Lifecycle</strong></p>\n",
+					"text": "<p>Initiation phase defines project goals and business justification</p><p>Planning phase creates detailed roadmap and resource allocation</p><p>Execution phase implements project activities and deliverables</p><p>Monitoring and control tracks progress and manages changes</p><p>Closing phase ensures deliverable acceptance and documentation</p><p>Each phase requires specific tools and techniques</p><p>Gates between phases ensure quality control</p><p>Lessons learned are captured throughout the lifecycle</p>",
 					"sequence": 2,
-					"slideList": [
+					"slideAssets": [
 						{
-							"id": 201,
-							"name": "<p><strong>Customer Service</strong></p>\n",
-							"text": "<p>AI chatbots provide 24/7 customer support and answer common questions</p><p>Smart systems analyze customer feedback to improve service quality</p><p>AI helps predict customer needs and personalize experiences</p>",
-							"sequence": 1,
-							"slideAssets": [
-								{
-									"id": 2001,
-									"assettype": "Text",
-									"content": "<p>AI in customer support</p>",
-									"orientationkey": "$Text",
-									"version": "1"
-								}
-							]
-						},
-						{
-							"id": 202,
-							"name": "<p><strong>Sales and Marketing</strong></p>\n",
-							"text": "<p>AI analyzes customer data to identify potential buyers</p><p>Smart algorithms personalize marketing messages for different audiences</p><p>AI predicts sales trends and helps optimize pricing strategies</p>",
-							"sequence": 2,
-							"slideAssets": [
-								{
-									"id": 2002,
-									"assettype": "Text",
-									"content": "<p>AI in sales optimization</p>",
-									"orientationkey": "$Text",
-									"version": "1"
-								}
-							]
-						},
-						{
-							"id": 203,
-							"name": "<p><strong>Operations</strong></p>\n",
-							"text": "<p>AI helps automate repetitive tasks and streamline workflows</p><p>Smart systems predict equipment maintenance needs to prevent breakdowns</p><p>AI optimizes inventory management and supply chain operations</p>",
-							"sequence": 3,
-							"slideAssets": [
-								{
-									"id": 2003,
-									"assettype": "Text",
-									"content": "<p>AI in business operations</p>",
-									"orientationkey": "$Text",
-									"version": "1"
-								}
-							]
+							"id": 1002,
+							"assettype": "Text",
+							"content": "<p>Project Phases</p>",
+							"orientationkey": "$Text",
+							"version": "1"
 						}
 					]
 				},
 				{
-					"title": "AI in Healthcare",
-					"id": 3,
-					"description": "Applications of AI in healthcare",
-					"guid": "53cbd9b3b",
-					"allowQuiz": true,
+					"id": 103,
+					"name": "<p><strong>Project Manager Role</strong></p>\n",
+					"text": "<p>Project managers lead teams toward successful project completion</p><p>Key responsibilities include planning, organizing, and controlling resources</p><p>Leadership skills are essential for team motivation and conflict resolution</p><p>Strategic thinking helps align projects with organizational goals</p><p>Negotiation skills are crucial for stakeholder management</p><p>Technical knowledge varies by industry and project type</p><p>Problem-solving abilities help overcome project challenges</p><p>Continuous learning is essential for professional growth</p>",
 					"sequence": 3,
-					"slideList": [
+					"slideAssets": [
 						{
-							"id": 301,
-							"name": "<p><strong>Medical Diagnosis</strong></p>\n",
-							"text": "<p>AI analyzes medical images to detect diseases early</p><p>Smart systems help doctors make more accurate diagnoses</p><p>AI can predict patient health risks based on medical history</p>",
-							"sequence": 1,
-							"slideAssets": [
-								{
-									"id": 3001,
-									"assettype": "Text",
-									"content": "<p>AI in medical diagnosis</p>",
-									"orientationkey": "$Text",
-									"version": "1"
-								}
-							]
-						},
-						{
-							"id": 302,
-							"name": "<p><strong>Treatment Planning</strong></p>\n",
-							"text": "<p>AI helps create personalized treatment plans for patients</p><p>Smart systems monitor patient response to treatments in real-time</p><p>AI assists in predicting treatment outcomes and success rates</p>",
-							"sequence": 2,
-							"slideAssets": [
-								{
-									"id": 3002,
-									"assettype": "Text",
-									"content": "<p>AI in treatment optimization</p>",
-									"orientationkey": "$Text",
-									"version": "1"
-								}
-							]
-						},
-						{
-							"id": 303,
-							"name": "<p><strong>Drug Discovery</strong></p>\n",
-							"text": "<p>AI accelerates the process of discovering new medicines</p><p>Smart algorithms predict drug interactions and side effects</p><p>AI helps identify existing drugs that might treat new conditions</p>",
-							"sequence": 3,
-							"slideAssets": [
-								{
-									"id": 3003,
-									"assettype": "Text",
-									"content": "<p>AI in pharmaceutical research</p>",
-									"orientationkey": "$Text",
-									"version": "1"
-								}
-							]
-						}
-					]
-				},
-				{
-					"title": "AI in Education",
-					"id": 4,
-					"description": "How AI transforms learning",
-					"guid": "53cbd9b4b",
-					"allowQuiz": true,
-					"sequence": 4,
-					"slideList": [
-						{
-							"id": 401,
-							"name": "<p><strong>Personalized Learning</strong></p>\n",
-							"text": "<p>AI creates customized learning paths based on student performance</p><p>Smart systems adapt content difficulty to match student abilities</p><p>AI provides immediate feedback to help students improve</p>",
-							"sequence": 1,
-							"slideAssets": [
-								{
-									"id": 4001,
-									"assettype": "Text",
-									"content": "<p>AI in personalized education</p>",
-									"orientationkey": "$Text",
-									"version": "1"
-								}
-							]
-						},
-						{
-							"id": 402,
-							"name": "<p><strong>Administrative Tasks</strong></p>\n",
-							"text": "<p>AI automates grading for multiple-choice and written assignments</p><p>Smart systems help teachers manage classroom schedules and resources</p><p>AI tracks student progress and generates detailed performance reports</p>",
-							"sequence": 2,
-							"slideAssets": [
-								{
-									"id": 4002,
-									"assettype": "Text",
-									"content": "<p>AI in education management</p>",
-									"orientationkey": "$Text",
-									"version": "1"
-								}
-							]
-						},
-						{
-							"id": 403,
-							"name": "<p><strong>Learning Support</strong></p>\n",
-							"text": "<p>AI-powered tutors provide 24/7 homework help to students</p><p>Smart systems identify learning gaps and suggest additional resources</p><p>AI helps create interactive and engaging learning materials</p>",
-							"sequence": 3,
-							"slideAssets": [
-								{
-									"id": 4003,
-									"assettype": "Text",
-									"content": "<p>AI in learning assistance</p>",
-									"orientationkey": "$Text",
-									"version": "1"
-								}
-							]
-						}
-					]
-				},
-				{
-					"title": "Future of AI",
-					"id": 5,
-					"description": "Upcoming trends and possibilities",
-					"guid": "53cbd9b5b",
-					"allowQuiz": true,
-					"sequence": 5,
-					"slideList": [
-						{
-							"id": 501,
-							"name": "<p><strong>Emerging Technologies</strong></p>\n",
-							"text": "<p>Self-driving vehicles will become more common on our roads</p><p>Smart cities will use AI to manage traffic, energy, and services</p><p>Advanced robots will assist in homes and workplaces</p>",
-							"sequence": 1,
-							"slideAssets": [
-								{
-									"id": 5001,
-									"assettype": "Text",
-									"content": "<p>Future AI applications</p>",
-									"orientationkey": "$Text",
-									"version": "1"
-								}
-							]
-						},
-						{
-							"id": 502,
-							"name": "<p><strong>Workplace Impact</strong></p>\n",
-							"text": "<p>AI will automate routine tasks across many industries</p><p>New jobs will emerge focused on AI development and management</p><p>Workers will need to develop new skills to work alongside AI</p>",
-							"sequence": 2,
-							"slideAssets": [
-								{
-									"id": 5002,
-									"assettype": "Text",
-									"content": "<p>AI's impact on jobs</p>",
-									"orientationkey": "$Text",
-									"version": "1"
-								}
-							]
-						},
-						{
-							"id": 503,
-							"name": "<p><strong>Ethical Considerations</strong></p>\n",
-							"text": "<p>Society will need to address AI privacy and security concerns</p><p>Guidelines will be needed for responsible AI development</p><p>Ensuring AI benefits everyone will be a key challenge</p>",
-							"sequence": 3,
-							"slideAssets": [
-								{
-									"id": 5003,
-									"assettype": "Text",
-									"content": "<p>AI ethics and challenges</p>",
-									"orientationkey": "$Text",
-									"version": "1"
-								}
-							]
+							"id": 1003,
+							"assettype": "Text",
+							"content": "<p>Project Manager Responsibilities</p>",
+							"orientationkey": "$Text",
+							"version": "1"
 						}
 					]
 				}
-			],
-			"resources": [],
-			"authorId": 0,
-			"guid": "8d35a1eab",
-			"topicscovered": "Artificial Intelligence, Business Applications, Healthcare, Education, Future Trends"
+			]
+		},
+		{
+			"title": "Project Planning",
+			"id": 2,
+			"description": "Essential planning techniques",
+			"guid": "53cbd9d2b",
+			"allowQuiz": true,
+			"sequence": 2,
+			"slideList": [
+				{
+					"id": 201,
+					"name": "<p><strong>Scope Management</strong></p>\n",
+					"text": "<p>Project scope defines all work required to complete the project</p><p>Work Breakdown Structure (WBS) decomposes deliverables into manageable components</p><p>Scope creep must be managed through change control processes</p><p>Requirements gathering involves all key stakeholders</p><p>Scope verification ensures deliverables meet requirements</p><p>Clear scope boundaries prevent unnecessary work</p><p>Regular scope reviews maintain project focus</p><p>Documentation helps prevent scope disputes</p>",
+					"sequence": 1,
+					"slideAssets": [
+						{
+							"id": 2001,
+							"assettype": "Text",
+							"content": "<p>Managing Project Scope</p>",
+							"orientationkey": "$Text",
+							"version": "1"
+						}
+					]
+				},
+				{
+					"id": 202,
+					"name": "<p><strong>Schedule Management</strong></p>\n",
+					"text": "<p>Project schedules define activity sequences and timelines</p><p>Critical path method identifies activities that impact completion date</p><p>Resource leveling optimizes resource allocation across activities</p><p>Schedule compression techniques handle delays and constraints</p><p>Milestones mark significant project events and progress</p><p>Buffer management accounts for uncertainty</p><p>Regular updates reflect actual progress and changes</p><p>Dependencies must be carefully managed and monitored</p>",
+					"sequence": 2,
+					"slideAssets": [
+						{
+							"id": 2002,
+							"assettype": "Text",
+							"content": "<p>Timeline Planning</p>",
+							"orientationkey": "$Text",
+							"version": "1"
+						}
+					]
+				},
+				{
+					"id": 203,
+					"name": "<p><strong>Budget Management</strong></p>\n",
+					"text": "<p>Project budgets include all costs needed to complete the project</p><p>Cost estimation techniques vary based on project phase and type</p><p>Contingency reserves handle known risks and uncertainties</p><p>Management reserves cover unknown risks</p><p>Earned value management tracks project performance</p><p>Regular forecasting helps predict final costs</p><p>Cost control processes manage spending and changes</p><p>Budget updates reflect actual costs and revised estimates</p>",
+					"sequence": 3,
+					"slideAssets": [
+						{
+							"id": 2003,
+							"assettype": "Text",
+							"content": "<p>Cost Control</p>",
+							"orientationkey": "$Text",
+							"version": "1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Risk Management",
+			"id": 3,
+			"description": "Managing project risks",
+			"guid": "53cbd9d3b",
+			"allowQuiz": true,
+			"sequence": 3,
+			"slideList": [
+				{
+					"id": 301,
+					"name": "<p><strong>Risk Identification</strong></p>\n",
+					"text": "<p>Risk identification uncovers potential threats and opportunities</p><p>Multiple techniques are used: brainstorming, checklists, interviews</p><p>Historical data helps identify common project risks</p><p>External factors must be considered in risk assessment</p><p>Team members provide unique risk perspectives</p><p>Early identification allows better risk planning</p><p>Risk categories help organize and analyze threats</p><p>Risk register documents all identified risks</p>",
+					"sequence": 1,
+					"slideAssets": [
+						{
+							"id": 3001,
+							"assettype": "Text",
+							"content": "<p>Finding Risks</p>",
+							"orientationkey": "$Text",
+							"version": "1"
+						}
+					]
+				},
+				{
+					"id": 302,
+					"name": "<p><strong>Risk Analysis</strong></p>\n",
+					"text": "<p>Qualitative analysis assesses probability and impact</p><p>Quantitative analysis uses numerical methods to evaluate risks</p><p>Risk prioritization guides response planning</p><p>Monte Carlo simulation estimates project outcomes</p><p>Decision trees help analyze complex risk scenarios</p><p>Sensitivity analysis identifies critical risk factors</p><p>Risk exposure calculations guide contingency planning</p><p>Regular updates reflect changing risk profiles</p>",
+					"sequence": 2,
+					"slideAssets": [
+						{
+							"id": 3002,
+							"assettype": "Text",
+							"content": "<p>Analyzing Risks</p>",
+							"orientationkey": "$Text",
+							"version": "1"
+						}
+					]
+				},
+				{
+					"id": 303,
+					"name": "<p><strong>Risk Response Planning</strong></p>\n",
+					"text": "<p>Response strategies include avoid, transfer, mitigate, and accept</p><p>Contingency plans prepare for identified risks</p><p>Fallback plans provide backup options</p><p>Risk owners are assigned responsibility for responses</p><p>Trigger conditions initiate response actions</p><p>Cost-benefit analysis guides strategy selection</p><p>Response effectiveness must be monitored</p><p>Regular reviews ensure strategy relevance</p>",
+					"sequence": 3,
+					"slideAssets": [
+						{
+							"id": 3003,
+							"assettype": "Text",
+							"content": "<p>Managing Risks</p>",
+							"orientationkey": "$Text",
+							"version": "1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Stakeholder Management",
+			"id": 4,
+			"description": "Managing stakeholder relationships",
+			"guid": "53cbd9d4b",
+			"allowQuiz": true,
+			"sequence": 4,
+			"slideList": [
+				{
+					"id": 401,
+					"name": "<p><strong>Stakeholder Identification</strong></p>\n",
+					"text": "<p>Stakeholders include anyone impacted by or influential to the project</p><p>Power/interest grid helps categorize stakeholders</p><p>Internal stakeholders include team members and executives</p><p>External stakeholders include customers and regulators</p><p>Stakeholder register documents key information</p><p>Relationships between stakeholders affect project dynamics</p><p>New stakeholders may emerge during the project</p><p>Regular reviews ensure stakeholder list remains current</p>",
+					"sequence": 1,
+					"slideAssets": [
+						{
+							"id": 4001,
+							"assettype": "Text",
+							"content": "<p>Finding Stakeholders</p>",
+							"orientationkey": "$Text",
+							"version": "1"
+						}
+					]
+				},
+				{
+					"id": 402,
+					"name": "<p><strong>Communication Planning</strong></p>\n",
+					"text": "<p>Communication plans outline strategies for each stakeholder group</p><p>Message frequency and format vary by stakeholder needs</p><p>Communication channels must be appropriate and effective</p><p>Cultural factors influence communication approaches</p><p>Feedback mechanisms ensure two-way communication</p><p>Technology tools support communication management</p><p>Templates standardize common communications</p><p>Regular reviews assess communication effectiveness</p>",
+					"sequence": 2,
+					"slideAssets": [
+						{
+							"id": 4002,
+							"assettype": "Text",
+							"content": "<p>Communication Strategy</p>",
+							"orientationkey": "$Text",
+							"version": "1"
+						}
+					]
+				},
+				{
+					"id": 403,
+					"name": "<p><strong>Stakeholder Engagement</strong></p>\n",
+					"text": "<p>Engagement strategies align with stakeholder influence and interest</p><p>Regular meetings maintain stakeholder involvement</p><p>Issue resolution processes handle stakeholder concerns</p><p>Change management considers stakeholder impact</p><p>Resistance management addresses stakeholder concerns</p><p>Success metrics include stakeholder satisfaction</p><p>Documentation tracks engagement activities</p><p>Lessons learned improve future engagement</p>",
+					"sequence": 3,
+					"slideAssets": [
+						{
+							"id": 4003,
+							"assettype": "Text",
+							"content": "<p>Managing Engagement</p>",
+							"orientationkey": "$Text",
+							"version": "1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Project Control and Closure",
+			"id": 5,
+			"description": "Monitoring and closing projects",
+			"guid": "53cbd9d5b",
+			"allowQuiz": true,
+			"sequence": 5,
+			"slideList": [
+				{
+					"id": 501,
+					"name": "<p><strong>Performance Monitoring</strong></p>\n",
+					"text": "<p>Key performance indicators track project health and progress</p><p>Earned value metrics measure cost and schedule performance</p><p>Quality metrics ensure deliverables meet requirements</p><p>Progress reports communicate status to stakeholders</p><p>Variance analysis identifies deviations from plan</p><p>Corrective actions address performance issues</p><p>Tracking tools provide real-time project data</p><p>Regular reviews assess overall project health</p>",
+					"sequence": 1,
+					"slideAssets": [
+						{
+							"id": 5001,
+							"assettype": "Text",
+							"content": "<p>Monitoring Progress</p>",
+							"orientationkey": "$Text",
+							"version": "1"
+						}
+					]
+				},
+				{
+					"id": 502,
+					"name": "<p><strong>Change Control</strong></p>\n",
+					"text": "<p>Change control processes manage project modifications</p><p>Impact analysis assesses change effects on project constraints</p><p>Change requests require proper documentation and approval</p><p>Configuration management tracks project baselines</p><p>Integration assessment ensures coordinated changes</p><p>Communication ensures stakeholder awareness</p><p>Implementation planning ensures smooth transitions</p><p>Lessons learned improve future change management</p>",
+					"sequence": 2,
+					"slideAssets": [
+						{
+							"id": 5002,
+							"assettype": "Text",
+							"content": "<p>Managing Changes</p>",
+							"orientationkey": "$Text",
+							"version": "1"
+						}
+					]
+				},
+				{
+					"id": 503,
+					"name": "<p><strong>Project Closure</strong></p>\n",
+					"text": "<p>Formal acceptance procedures verify deliverable completion</p><p>Administrative closure archives project documentation</p><p>Financial closure reconciles all project accounts</p><p>Team transitions are planned and executed</p><p>Lessons learned sessions capture project experience</p><p>Final reports summarize project performance</p><p>Success celebration recognizes team achievements</p><p>Knowledge transfer ensures operational readiness</p>",
+					"sequence": 3,
+					"slideAssets": [
+						{
+							"id": 5003,
+							"assettype": "Text",
+							"content": "<p>Closing Projects</p>",
+							"orientationkey": "$Text",
+							"version": "1"
+						}
+					]
+				}
+			]
 		}
-
+	],
+	"resources": [],
+	"authorId": 456,
+	"guid": "pm-course-2024-v1",
+	"topicscovered": "Project Management Fundamentals, Project Lifecycle, Scope Management, Schedule Management, Budget Planning, Risk Management, Stakeholder Engagement, Change Control, Project Closure, Team Leadership, Communication Planning, Performance Monitoring, Quality Management, Resource Allocation"
+}
 	]
 }
-	
-	
